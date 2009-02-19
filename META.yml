@@ -1,6 +1,6 @@
 ---
 name: HTML-Revelation
-version: 1.00
+version: 1.01
 author:
   - 'Ron Savage <ron@savage.net.au>'
 abstract: Reveal HTML document structure in a myriad of colors
@@ -20,7 +20,7 @@ build_requires:
 provides:
   HTML::Revelation:
     file: lib/HTML/Revelation.pm
-    version: 1.00
+    version: 1.01
 generated_by: Module::Build version 0.280801
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
