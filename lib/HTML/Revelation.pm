@@ -31,7 +31,7 @@ our @EXPORT = qw(
 
 );
 
-our $VERSION = '1.01';
+our $VERSION = '1.03';
 
 # -----------------------------------------------
 
@@ -923,7 +923,7 @@ HTML::Revelation - Reveal HTML document structure in a myriad of colors
 	my($reveal) = HTML::Revelation -> new
 	(
 	 caption          => 1,
-	 comment          => "DBIx::Admin::CreateTable's POD converted to HTML with fancy-pom2.pl",
+	 comment          => "DBIx::Admin::CreateTable's POD converted to HTML with my pod2html.pl",
 	 css_output_file  => 'CreateTable.css',
 	 css_url          => '/',
 	 html_output_file => 'CreateTable.html',
@@ -1062,10 +1062,6 @@ Patch line 743 to put ' $class_name' just inside the '|' at the end of the line.
 
 =back
 
-=head1 Changes
-
-See Changes and Changelog.ini. The latter is machine-readable, using Module::Metadata::Changes.
-
 =head1 Author
 
 C<HTML::Revelation> was written by Ron Savage I<E<lt>ron@savage.net.auE<gt>> in 2008.
@@ -1074,8 +1070,7 @@ Home page: http://savage.net.au/index.html
 
 =head1 Copyright
 
-	Copyright (c) 2008,  Ron Savage. All rights reserved.
-
+	Australian copyright (c) 2008,  Ron Savage.
 	All Programs of mine are 'OSI Certified Open Source Software';
 	you can redistribute them and/or modify them under the terms of
 	the Artistic or the GPL licences, copies of which is available at:

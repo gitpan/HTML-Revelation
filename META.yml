@@ -1,12 +1,22 @@
 ---
-name: HTML-Revelation
-version: 1.01
+abstract: 'Reveal HTML document structure in a myriad of colors'
 author:
   - 'Ron Savage <ron@savage.net.au>'
-abstract: Reveal HTML document structure in a myriad of colors
+build_requires:
+  Test::More: 0
+  Test::Pod: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3607'
 license: artistic
-resources:
-  license: http://opensource.org/licenses/artistic-license.php
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: HTML-Revelation
+provides:
+  HTML::Revelation:
+    file: lib/HTML/Revelation.pm
+    version: 1.03
 requires:
   File::Spec: 0
   HTML::Entities::Interpolate: 0
@@ -14,14 +24,6 @@ requires:
   HTML::TreeBuilder: 0
   List::Cycle: 0
   accessors::classic: 0
-build_requires:
-  Test::More: 0
-  Test::Pod: 0
-provides:
-  HTML::Revelation:
-    file: lib/HTML/Revelation.pm
-    version: 1.01
-generated_by: Module::Build version 0.280801
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+resources:
+  license: http://www.perlfoundation.org/artistic_license_1_0
+version: 1.03
